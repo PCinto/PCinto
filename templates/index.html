@@ -303,8 +303,11 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
               <div class="row">
+
+                  <input type="hidden" name="access_key" value="a1f6b952-796d-4853-8fe8-8190ec4a53cd">
+
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
                   <input type="text" name="name" class="form-control" id="name" required>
